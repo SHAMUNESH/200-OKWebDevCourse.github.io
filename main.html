@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>200 OK | Course Registration</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Rubik:wght@300&family=Squada+One&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Rubik:wght@300&display=swap" rel="stylesheet"> 
+
+    <style>
+        .mySlides {display:block; max-height: 600px;
+        }
+        </style>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript">
+          function myfunc(){
+            var retVal = prompt("Enter your name : ");
+            return retVal;
+          }
+        </script>
+</head>
+<body style="background-color:  #900C3F
+;" >
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <img src="logo.png" width="80px" height="80px">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul  class="navbar-nav">
+            <li  class="nav-item">
+              <a class="nav-link" href="instructor.html" target="_blank">Instructor</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" target="_blank">Contact Us</a>
+            </li>
+             
+          </ul>
+        </div>  
+      </nav>
+      <div  style="max-width:100%" style=" max-height: 200;">
+        
+        <img class="mySlides" src="img_gallery_1.jpg" style="width:100%">
+        <img class="mySlides" src="img_gallery_2.jpg" style="width:100%">
+        <img class="mySlides" src="img_gallery_3.jpg" style="width:100%">
+      </div>
+      <br>
+      <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 3000); // Change image every 2 seconds
+        }
+        </script>
+        <CENTER>
+        <div class="container">
+          <div class="jumbotron">
+            <h3><span style="color:  #6c3483 ;"> <strong  ><script > 
+            let name = myfunc();
+            document.write("Hey !" + " " + name);
+              
+            </script></strong></span> ,<span style="font-family: 'Josefin Sans', sans-serif;"> How are you doin :? I hope you excited to join <span style="color:  #cb4335 ;"  >
+            "200 OK" </span>course and wanna experience the DEVELOPER LIFE! Go through the 
+            Course details below, and <span style="color:   #e74c3c ;"> click on JOIN 200 OK button :)</span></span></h3>   <br>   
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScO3De2ugWxvkPw1v7g--jL15RAhMlKahgKjWs6U7i1Ez2qkQ/viewform?usp=sf_link" target="_blank"><button type="button" class="btn btn-dark">JOIN 200 OK</button></a>
+          </div>
+               
+        </div></CENTER>
+        
+   <div class="card-deck">
+    <div class="card bg-primary">
+      <div class="card-body text-center">
+        <p class="card-text"> <span style="font-family: 'Squada One', cursive; font-size: 20px;"> What is 200 OK?</span></p>
+        <p class="card-text" style="color: white;">An exclusive platform to learn web Development Beginner level!
+           <br> <span style="color:  #424949 ;"> <strong> 200 OK means 
+             success in HTTP protocol! This course will definetly 
+             be your first step towards your success path :)</strong></span> </p>
+        
+      </div>
+    </div>
+    <div class="card bg-warning">
+      <div class="card-body text-center">
+        <p class="card-text"> <span style="font-family: 'Squada One', cursive; font-size: 20px;"> Why to join 200 OK?</span></p>
+        <p class="card-text" style="color: white;">Web Development is NEXT BIG THING! Start your 2021 with Web Dev and join the course to explore the 
+            amazing  life of a Developer! This course is such a cool platform for absolute beginners, 
+            who wanna start web-dev from scratch to MASTER!
+        </p>
+        
+
+
+      </div>
+    </div>
+    <div class="card bg-success">
+      <div class="card-body text-center">
+        <p class="card-text"> <span style="font-family: 'Squada One', cursive; font-size: 20px;">What will I learn?</span></p>
+        <p class="card-text" style="color: white;">The Course is for 1 week, 1 hour live Gmeet classes daily! We will learn the tools for Web-dev.. <br>
+        -> HTML <br> -> CSS <br> -> JAVASCRIPT
+    </p>
+      </div>
+    </div>
+    <div class="card bg-danger">
+      <div class="card-body text-center">
+        <p class="card-text"><span style="font-family: 'Squada One', cursive; font-size: 20px;"  >My Final Outcome?'</span></p>
+        <p class="card-text" style="color: white;">After completing the course of one week live classes, I'm 100% sure that you can call yourself a Budding Web-Developer! You are no more a beginner:) <br>
+        -> E-Certification <br> -> Road Map for MASTER DEVELOPER! </p>
+      </div>
+    </div>  
+  </div>
+</div>
+<br>
+<div class="bgimg_steve">
+    <img style="width: 100%; max-height: 300px;" src="steve_jobs.jpg">
+
+</div>
+<br>
+
+
+<div class="container">
+    <div class="jumbotron">
+        
+      <h1 style="color:  #6c3483  ;"><center><strong>Only 20 SEATS!!</strong> </center> </h1>      
+      <h2><center>At the cost of just  &#8377; 200 , You can join 200 OK Course! <br> Most effective live classes with only 20 participants! </center></h2>
+   </div>
+   <br>
+
+   <br>
+   </div>
+   <center>
+   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Course Details</button>
+   <div id="demo" class="collapse">
+       <br>
+     <div class="jumbotron" style="width: 80%;">
+        <h6 style="text-align: left;">DAY 1 : Web-Dev Basics & Environment Setup</h6>
+        <h6 style="text-align: left;">DAY 2 : HTML Structure and Tags!</h6>
+        <h6 style="text-align: left;">DAY 3 : Basic Tags in HTML</h6>
+        <h6 style="text-align: left;">DAY 4 : CSS Introduction and types.</h6>
+        <h6 style="text-align: left;">DAY 5 : Properties in CSS. (Animations)</h6>
+        <h6 style="text-align: left;">Day 6 : Impact of JAVASCRIPT!(Properties)</h6>
+        <h6 style="text-align: left;">Day 7 : Javascript in WEB-DEV!(Road Map)</h6>
+        </div>
+   </div>
+ </div>
+ </center>
+ <br>
+ <div class="img_div">
+     <img src="img_div.jpg" style="width: 100%; height: 400px;">
+
+ </div>
+ <img onclick="topFunction()" src="arrowup.png" class="rounded-circle" alt="Go top" id="myBtn" width="60" height="55">
+ <script>
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 15 || document.documentElement.scrollTop > 15) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+  
+</body>
+</html>
